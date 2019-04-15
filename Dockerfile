@@ -8,7 +8,7 @@ RUN apt-get update && \
     libssl1.0-dev nmap libyaml-dev tmux dirmngr \
     dbus htop curl libmariadbclient-dev-compat \
     build-essential git gpg curl rsync ca-certificates dnsutils 
-   
+  
 
 
 #CMD ["/bin/bash", "-c", "top"]
