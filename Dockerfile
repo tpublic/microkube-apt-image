@@ -9,5 +9,4 @@ RUN apt-get update && \
     dbus htop curl libmariadbclient-dev-compat \
     build-essential git gpg curl rsync ca-certificates dnsutils 
   
-
 #CMD ["/bin/bash", "-c", "top"]
