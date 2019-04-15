@@ -1,8 +1,5 @@
 FROM docker.bluelight.limited:35000/ubuntu:18.04
 
-# ENV RUBY_VER=2.5.3
-ENV RUBY_VER=2.6.0
-
 
 # # # Perform APT installs if needed
 RUN apt-get update && \
