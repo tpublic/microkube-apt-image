@@ -7,7 +7,8 @@ RUN apt-get update && \
     apt-get  install -y libssl1.0.0 openssl1.0 \
     libssl1.0-dev nmap libyaml-dev tmux dirmngr \
     dbus htop curl libmariadbclient-dev-compat \
-    build-essential git gpg curl rsync ca-certificates dnsutils 
+    build-essential git gpg curl rsync ca-certificates \
+    dnsutils pip 
   
 
 
